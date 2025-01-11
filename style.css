@@ -1,0 +1,231 @@
+
+body{
+    background-color: black;
+    color: white;
+    
+}
+
+
+.Logo{
+    height: 95px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    border-radius: 5px
+    
+}
+.Logo1{
+    height: 95px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    border-radius: 5px   
+}
+
+
+.first-section{
+    background: black;
+    height: 100px;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-evenly;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    border-bottom-width: 3px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(174, 171, 171);
+       
+
+}
+
+.middle-section{
+    
+    flex:1;
+    
+    max-width:600px;
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.AboutUs-button{
+    background-color: black;
+    color:white;
+    border: none;
+    height:36px;
+    width: 105px;
+    cursor:pointer;
+    transition:opacity 0.15s;       
+}
+.Services-button{
+	background-color: black;
+    color:white;
+    border: none;
+    height:36px;
+    width: 105px;
+    cursor:pointer;
+    transition:opacity 0.15s; 
+}
+.Products-button{
+    background-color: black;
+    color:white;
+    border: none;
+    height:36px;
+    width: 105px;
+    cursor:pointer;
+    transition:opacity 0.15s; 
+}
+
+.ContactUs-button{
+   background-color: black;
+    color:white;
+    border: none;
+    height:36px;
+    width: 105px;
+    cursor:pointer;
+    transition:opacity 0.15s;
+}
+
+    
+
+
+
+.second-section{
+   	padding-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 100px;
+    
+      
+        
+}
+
+.media-grid{
+     display:grid;
+     grid-template-columns: repeat(5, 1fr);
+     grid-template-rows: repeat(4,auto);
+     gap: 30px;
+}
+
+.media-grid2{
+        
+    display:grid;
+     grid-template-columns: repeat(3, 1fr);
+     grid-template-rows: repeat(3,auto);
+     gap: 30px;    
+}
+
+.media-grid img{
+    width: 250px;
+    height: 200px;
+}
+.media-grid2 img{
+    width: 250px;
+    height: 200px;    
+}        
+        
+}
+
+.last-section {
+    text-align: center;
+    margin-bottom: 10px; 
+}
+
+.last-section1{
+    text-align: center;
+    margin-bottom: 10px;     
+}
+
+
+.bottom.links {
+    display: inline-block;
+    text-align: center;
+}
+
+
+
+.FirstBody{
+    padding-top: 100px; 
+    font-family: Arial, sans-serif;
+   
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-left: 500px;
+        
+}
+
+
+.AboutUsSection{   
+    width: 100%;
+    max-width: 1200px;
+    padding: 20px;
+    box-sizing: border-box;
+        
+        
+        
+}
+
+.box {
+        width: 48%;
+        margin: 1%;
+        padding: 20px;
+        box-sizing: border-box;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        
+}
+.box:nth-child(2) {
+        margin-top: 40px;
+}
+
+.second-section-services{
+        
+	padding-top: 100px;
+
+
+}
+
+.1-service{
+       padding-top: 200px;
+}
+
+.2-service{
+        padding-top:100px;
+        padding-left:700px;
+        
+}
+
+.contactInfo{
+       font-size: 40px;
+        
+       font-weight: bold;
+        
+       text-align: center;
+       padding-top: 250px;
+       
+       padding-bottom: 500px;
+       
+}
+
+.facebook{
+ display: block;
+ margin-left: auto;
+ margin-right: auto;
+ width: 50px;
+ height: 50px;
+ border-radius: 8px;
+ padding-bottom: 20px;
+ 
+}
+
+
+.ChatIcon:hover{
+    cursor: pointer;
+}
+
+
