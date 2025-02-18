@@ -51,7 +51,7 @@ body{
     gap: 20px;
 }
 
-.AboutUs-button{
+.AboutUs-button, .Services-button, .Products-button, .ContactUs-button{
     background-color: black;
     color:white;
     border: none;
@@ -60,48 +60,12 @@ body{
     cursor:pointer;
     transition:opacity 0.15s;       
 }
-.Services-button{
-	background-color: black;
-    color:white;
-    border: none;
-    height:36px;
-    width: 105px;
-    cursor:pointer;
-    transition:opacity 0.15s; 
-}
-.Products-button{
-    background-color: black;
-    color:white;
-    border: none;
-    height:36px;
-    width: 105px;
-    cursor:pointer;
-    transition:opacity 0.15s; 
-}
-
-.ContactUs-button{
-   background-color: black;
-    color:white;
-    border: none;
-    height:36px;
-    width: 105px;
-    cursor:pointer;
-    transition:opacity 0.15s;
-}
-
-    
-
-
 
 .second-section{
-   	padding-top: 100px;
+   	padding-top: 20px;
     display: flex;
     justify-content: center;
-    align-items: center;
-
-    
-      
-        
+    align-items: center;       
 }
 
 .introMessage{
@@ -121,7 +85,12 @@ body{
 .Tittle1{
     font-size: 80px;
     text-align: center;
-    border-radius: 20px;
+    border-radius: 10px;
+     
+    border-left: 4px solid #5c5d09;
+    border-top: 4px solid #5c5d09;
+    border-bottom: 4px solid #5c5d09;
+    border-right: 4px solid #5c5d09;
     background-color: rgb(14, 12, 12);
     color: white; 
     display: flex;
@@ -168,9 +137,15 @@ body{
 
 .followingMessage{
 
-    font-size: 25px;
+    font-size: 19px;
+    line-height: 2;
     text-align: center;
-    border-radius: 20px;
+    border-radius: 10px;
+     
+    border-left: 4px solid #5c5d09;
+    border-top: 4px solid #5c5d09;
+    border-bottom: 4px solid #5c5d09;
+    border-right: 4px solid #5c5d09;
     background-color: rgb(14, 12, 12);
     color: white; 
     display: flex;
@@ -193,9 +168,15 @@ body{
 }
 
 .section2parag{
-    font-size: 25px;
+    font-size: 19px;
+    line-height: 2;
     text-align: center;
-    border-radius: 20px;
+    border-radius: 10px;
+     
+    border-left: 4px solid #5c5d09;
+    border-top: 4px solid #5c5d09;
+    border-bottom: 4px solid #5c5d09;
+    border-right: 4px solid #5c5d09;
     background-color: rgb(14, 12, 12);
     color: white; 
     display: flex;
@@ -253,38 +234,154 @@ body{
 
 
 .FirstBody{
-    padding-top: 200px;
+    margin-top:130px;
    
         
 }
 
 .aboutImg{
-    height: 400px;
-    border-radius: 30px;
-    padding-left: 450px;
-    padding-top: 1050;
+    height: auto;
+    width: 95%;
+    padding-left: 30px;
+    padding-right: 30px;
+
 
 }
 
+.AboutUsSection{
+    margin-top:40px;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    gap:10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font: 19px;
+    line-height: 2;
+}
+.AboutUSItem{
 
+    height:fit-content;
+    width: 400px;
+    background-color: rgb(14, 12, 12);
+    border-radius: 10px;
+     
+     border-left: 4px solid #5c5d09;
+     border-top: 4px solid #5c5d09;
+     border-bottom: 4px solid #5c5d09;
+     border-right: 4px solid #5c5d09;
+     
+     /* Center text inside the box */
+     display: flex;
+     flex-direction: column;
+     
+     align-items: center;
+     padding-left:15px;
+     padding-right:15px;
+     text-align: center;
+}
 
+.AboutUs-secondSection{
+    margin-top:40px;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    gap:10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font: 19px;
+    line-height: 2;
+}
+
+.QuestionTop{
+    margin-top: 150px;
+   
+}
+
+.QuestionTop h1{
+    font-size: 60px;
+    text-align: center;
+}
 
 .second-section-services{
-        
-	padding-top: 100px;
+    margin-top: 20px;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    gap:10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font: 19px;
+    line-height: 2;
+}
 
+.Service1, .Service2, .Service3, .Service4, .Service5, .Service6, .Service7, .Service8{
+    height:400px;
+    width: 400px;
+    background-color: rgb(14, 12, 12);
+     border-radius: 10px;
+     border-left: 4px solid #5c5d09;
+     border-top: 4px solid #5c5d09;
+     border-bottom: 4px solid #5c5d09;
+     border-right: 4px solid #5c5d09;
+     
+     /* Center text inside the box */
+     display: flex;
+     flex-direction: column;
+     
+     align-items: center;
+     padding-left:15px;
+     padding-right:15px;
+     text-align: center;
 
 }
 
-.1-service{
-       padding-top: 200px;
+.SecondSection2{
+    margin-top:30px;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    gap:10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font: 19px;
+    line-height: 2;
 }
 
-.2-service{
-        padding-top:100px;
-        padding-left:700px;
-        
+.Psecondsection{
+    margin-top: 150px;
+    display: flex;
+    gap: 10px;
 }
+
+.media-grid2{
+    display:grid;
+    gap: 10px;
+}
+.ProductsMessage{
+    height: fit-content;
+    width: fit-content;
+    font: 19px;
+    line-height: 2;
+    background-color: rgb(14, 12, 12);
+     border-radius: 10px;
+     border-left: 4px solid #5c5d09;
+     border-top: 4px solid #5c5d09;
+     border-bottom: 4px solid #5c5d09;
+     border-right: 4px solid #5c5d09;
+     
+     /* Center text inside the box */
+     display: flex;
+     flex-direction: column;
+     
+     align-items: center;
+     margin-top:100px;
+     padding-right:15px;
+     text-align: center;
+    
+}
+
+
 
 .contactInfo{
        font-size: 40px;
